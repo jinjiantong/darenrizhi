@@ -3,19 +3,50 @@
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 9.38vmin;
+  width: 25.89vmin;
+   margin-top: 4vmin;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+.jietu {
+  height: 80vmin;
+  width: 38vmin;
+   margin-top: 4vmin;
+ 
+}
+
+
+
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    //animation: App-logo-spin infinite 20s linear;
   }
+} */
+
+.App-buttonContainer {
+ flex-direction: row;
+ flex: 1;
+ width: 200vmin;
+  margin-top:2vmin ;
+}
+
+.App-title {
+ color: rgb(152, 148, 148);
+ font-size:x-large;
+ font-weight: 500;
+ margin-top: 0;
+}
+
+.App-title2{
+ color: white;
+ font-size:x-large;
+ font-weight: 500;
+ text-align: left;
+
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,8 +56,78 @@
 }
 
 .App-link {
-  color: #61dafb;
+  background-color: #2CB55A;
+  text-decoration: none;
+  padding-top:  1vmin;
+  padding-bottom: 1vmin;
 }
+
+.App-download{
+  color: white;
+  padding-right: 4vmin;
+  padding-left:  4vmin;
+  padding-top:  4vmin;
+  padding-bottom: 4vmin;
+}
+.App-downloaddiv{
+ display: inline;
+ margin-left:  6vmin;
+}
+
+.body-div{
+ height: 50vmin;
+ flex:1;
+ margin-top: 6vmin;
+ display:flex;
+ align-items: center;
+ justify-content: center;
+
+}
+
+.body-div3{
+  align-items: center;
+  justify-content: center;
+  margin-left: 6vmin;
+  margin-top: 6vmin;
+}
+
+.body-div2{
+ height: 90vmin;
+ flex:1;
+ margin-top: 6vmin;
+ background-color:#2CB55A;
+ 
+ justify-content: center;
+ display: flex;
+ 
+}
+
+.body-div-p{
+  display: inline-block;
+  width: 40vmin;
+  height: 40vmin;
+  
+  margin-left:4vmin; 
+  background-color: aliceblue;
+  padding: 2vmin;
+  align-self: flex-start;
+ 
+}
+
+.body-div-p-s{
+  color: rgb(125, 130, 129);
+  font-size:medium;
+  font-weight: 500;
+  margin-top: 0;
+  line-height: 3vmin;
+  text-align: left;
+}
+
+
+
+
+
+
 
 @keyframes App-logo-spin {
   from {
