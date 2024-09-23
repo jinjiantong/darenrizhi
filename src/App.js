@@ -4,7 +4,7 @@ import { Nav, Layout, Card } from "@douyinfe/semi-ui";
 import { IconMail, IconApps } from "@douyinfe/semi-icons";
 import { IconChangelog } from "@douyinfe/semi-icons-lab";
 import { Button } from "@douyinfe/semi-ui";
-import { IconMapPin, IconPhoneStroke, IconPhone } from "@douyinfe/semi-icons";
+import { IconPhone } from "@douyinfe/semi-icons";
 
 function App() {
   const { Footer, Header } = Layout;
