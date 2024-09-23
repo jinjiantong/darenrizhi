@@ -7,7 +7,7 @@ import { Button } from "@douyinfe/semi-ui";
 import { IconPhone } from "@douyinfe/semi-icons";
 
 function App() {
-  const { Footer, Header } = Layout;
+  const { Footer } = Layout;
 
   const marginTop = {
     marginTop: "22px",
@@ -256,14 +256,17 @@ function App() {
           产品截图
         </p>
         <img
+          alt="fupan1"
           style={{ width: "300px", height: "652px", marginRight: "42px" }}
           src="https://file.chaogudr.com/8IVzjCVHUrdo4PAdEnXfXTLBn79WgCXt/jietu1.png"
         />
         <img
+          alt="fupan2"
           style={{ width: "300px", height: "652px", marginRight: "42px" }}
           src="https://file.chaogudr.com/pzDwa8BET2LrrU00D5HUWU1XqBbqtlhj/jietu2.png"
         />
         <img
+          alt="fupan3"
           style={{ width: "300px", height: "652px", marginRight: "42px" }}
           src="https://file.chaogudr.com/yRBediARQW6MYXHFnKikcePdPpVMd6NS/jietu3.png"
         />
