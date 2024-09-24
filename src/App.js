@@ -14,7 +14,7 @@ function App() {
   };
 
   const commonStyle = {
-    height: "40px",
+    height: "60px",
     alignItems: "center",
     paddingTop: "10px",
     background: "var(--semi-color-fill-0)",
@@ -35,7 +35,7 @@ function App() {
           ]}
           onSelect={(key) => console.log(key)}
           header={{
-            text: "达人复盘",
+            text: "炒股达人",
           }}
           footer={<span>By darenfupan</span>}
         />
@@ -54,6 +54,25 @@ function App() {
               <div>
                 <p
                   style={{
+                    fontSize: "30px",
+                    fontWeight: 1200,
+                    color: "#2CB55A",
+                  }}
+                >
+                  炒股达人
+                </p>
+                <p
+                  style={{
+                    fontSize: "20px",
+                    fontWeight: 400,
+                    color: "var(--semi-color-text-2)",
+                  }}
+                >
+                  遇到一个好软件,足以让你翻身
+                </p>
+
+                {/* <p
+                  style={{
                     fontFamily: "Inter",
                     fontSize: "20px",
                     fontWeight: 600,
@@ -70,22 +89,28 @@ function App() {
                   }}
                 >
                   5分钟复盘,上班不耽误了解股票最新行情信息
-                </p>
+                </p> */}
               </div>
               <div>
                 <Card
                   style={{
-                    justifyContent: "center",
                     alignItems: "center",
                     alignContent: "center",
                     borderWidth: 0,
-                    height: 160,
-                    marginTop: 40,
-                    backgroundColor: "rgb(247,249,253)",
+                    height: 180,
                   }}
                 >
                   <Button
-                    style={{ width: 160, height: 50, marginRight: 60 }}
+                    style={{
+                      width: 160,
+                      height: 50,
+                      margin: 10,
+                      color: "#2CB55A",
+                    }}
+                    onClick={() => {
+                      window.location.href =
+                        "https://itunes.apple.com/app/6698875237";
+                    }}
                     icon={<IconPhone />}
                   >
                     {" "}
@@ -93,7 +118,12 @@ function App() {
                   </Button>
 
                   <Button
-                    style={{ width: 160, height: 50 }}
+                    style={{
+                      width: 160,
+                      height: 50,
+                      color: "#2CB55A",
+                      margin: 10,
+                    }}
                     icon={<IconPhone />}
                   >
                     {" "}
@@ -109,7 +139,7 @@ function App() {
                     alignItems: "flex-start",
                   }}
                 >
-                  {/* <div>
+                  {/* <div style={{ textAlign: "left" }}>
                     <Card style={marginTop}>
                       <div>
                         <p
@@ -123,18 +153,17 @@ function App() {
                           回撤少,只做确定性交易
                         </p>
                       </div>
-                      <p className={styles.label}>
+                      <p>
                         我们认真对待每一笔交易,每一笔交易都会有内在逻辑,只有看到市场逻辑的时候我们才会出手。
                       </p>
                     </Card>
                   </div>
 
-                  <div>
+                  <div style={{ textAlign: "left" }}>
                     <Card style={marginTop}>
                       <div>
                         <p
                           style={{
-                            fontFamily: "Inter",
                             fontSize: "16px",
                             fontWeight: 600,
                             color: "var(--semi-color-text-0)",
@@ -143,29 +172,24 @@ function App() {
                           拒绝马后炮,老师全程实盘,复盘
                         </p>
                       </div>
-                      <p className={styles.label}>
-                        不乱推荐,推荐后负责到底,每天同步老师的实盘记录。
-                      </p>
+                      <p>不乱推荐,推荐后负责到底,每天同步老师的实盘记录。</p>
                     </Card>
                   </div>
 
-                  <div>
+                  <div style={{ textAlign: "left" }}>
                     <Card style={marginTop}>
                       <div>
                         <p
                           style={{
-                            fontFamily: "Inter",
                             fontSize: "16px",
                             fontWeight: 600,
                             color: "var(--semi-color-text-0)",
                           }}
                         >
-                          怕跑路?怕贵?,低至20元/周 (注册账号免费体验半个月)
+                          怕跑路?怕贵?低至20元/周 (注册账号免费体验半个月)
                         </p>
                       </div>
-                      <p className={styles.label}>
-                        按周付费,试错成本低,只留符合模式内的学员。
-                      </p>
+                      <p>按周付费,试错成本低,只留符合模式内的学员。</p>
                     </Card>
                   </div> */}
 
@@ -174,7 +198,6 @@ function App() {
                       <div>
                         <p
                           style={{
-                            fontFamily: "Inter",
                             fontSize: "16px",
                             fontWeight: 600,
                             color: "var(--semi-color-text-0)",
@@ -194,7 +217,6 @@ function App() {
                       <div>
                         <p
                           style={{
-                            fontFamily: "Inter",
                             fontSize: "16px",
                             fontWeight: 600,
                             color: "var(--semi-color-text-0)",
@@ -214,7 +236,6 @@ function App() {
                       <div>
                         <p
                           style={{
-                            fontFamily: "Inter",
                             fontSize: "16px",
                             fontWeight: 600,
                             color: "var(--semi-color-text-0)",
@@ -243,13 +264,14 @@ function App() {
           justifyContent: "center",
           backgroundColor: "ButtonHighlight",
           paddingBottom: "42px",
+          paddingTop: "20px",
         }}
       >
         <p
           style={{
-            fontFamily: "Inter",
             fontSize: "20px",
             fontWeight: 600,
+            marginTop: "20px",
             color: "var(--semi-color-text-1)",
           }}
         >
@@ -257,17 +279,17 @@ function App() {
         </p>
         <img
           alt="fupan1"
-          style={{ width: "300px", height: "652px", marginRight: "42px" }}
+          style={{ width: "300px", height: "652px" }}
           src="https://file.chaogudr.com/8IVzjCVHUrdo4PAdEnXfXTLBn79WgCXt/jietu1.png"
         />
         <img
           alt="fupan2"
-          style={{ width: "300px", height: "652px", marginRight: "42px" }}
+          style={{ width: "300px", height: "652px" }}
           src="https://file.chaogudr.com/pzDwa8BET2LrrU00D5HUWU1XqBbqtlhj/jietu2.png"
         />
         <img
           alt="fupan3"
-          style={{ width: "300px", height: "652px", marginRight: "42px" }}
+          style={{ width: "300px", height: "652px" }}
           src="https://file.chaogudr.com/yRBediARQW6MYXHFnKikcePdPpVMd6NS/jietu3.png"
         />
       </div>
@@ -276,7 +298,6 @@ function App() {
         <div>
           <p
             style={{
-              fontFamily: "Inter",
               fontSize: "16px",
               fontWeight: 600,
               color: "var(--semi-color-text-0)",
