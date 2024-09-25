@@ -68,7 +68,7 @@ function App() {
                     color: "var(--semi-color-text-2)",
                   }}
                 >
-                  遇到一个好软件,足以让你翻身
+                  5分钟帮你搞定复盘
                 </p>
 
                 {/* <p
@@ -123,6 +123,10 @@ function App() {
                       height: 50,
                       color: "#2CB55A",
                       margin: 10,
+                    }}
+                    onClick={() => {
+                      window.location.href =
+                        "https://file.chaogudr.com/S644RMVXEwKh6AgLcI1eMCpBzL163W0g/app-release.apk";
                     }}
                     icon={<IconPhone />}
                   >
