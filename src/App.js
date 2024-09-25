@@ -126,7 +126,7 @@ function App() {
                     }}
                     onClick={() => {
                       window.location.href =
-                        "https://file.chaogudr.com/S644RMVXEwKh6AgLcI1eMCpBzL163W0g/app-release.apk";
+                        "https://file.chaogudr.com/68l7WMNsOKhxDa0Yl82rhUXonya3MHpN/app-release.apk";
                     }}
                     icon={<IconPhone />}
                   >
