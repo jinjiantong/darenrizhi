@@ -97,7 +97,7 @@ function App() {
                     alignItems: "center",
                     alignContent: "center",
                     borderWidth: 0,
-                    height: 180,
+                    height: 220,
                   }}
                 >
                   <Button
@@ -126,13 +126,17 @@ function App() {
                     }}
                     onClick={() => {
                       window.location.href =
-                        "https://file.chaogudr.com/68l7WMNsOKhxDa0Yl82rhUXonya3MHpN/app-release.apk";
+                        "https://file.chaogudr.com/tl1o9OG29Llrz3pTT9EqrVU8WlyruMqM/app-release.apk";
                     }}
                     icon={<IconPhone />}
                   >
                     {" "}
                     下载安卓应用
                   </Button>
+                  <p style={{ color: "var(--semi-color-text-3)" }}>
+                    {" "}
+                    不能下载？ 请浏览器打开该网站。
+                  </p>
                 </Card>
               </div>
               <div>
