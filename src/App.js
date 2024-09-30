@@ -35,7 +35,7 @@ function App() {
           ]}
           onSelect={(key) => console.log(key)}
           header={{
-            text: "达人复盘",
+            text: "炒股达人",
           }}
           footer={<span>By darenfupan</span>}
         />
@@ -59,7 +59,7 @@ function App() {
                     color: "#2CB55A",
                   }}
                 >
-                  达人复盘
+                  炒股达人
                 </p>
                 <p
                   style={{
@@ -68,7 +68,7 @@ function App() {
                     color: "var(--semi-color-text-2)",
                   }}
                 >
-                  5分钟帮你搞定复盘
+                  好平台让你赚的更多,亏的更少
                 </p>
 
                 {/* <p
@@ -147,7 +147,7 @@ function App() {
                     alignItems: "flex-start",
                   }}
                 >
-                  {/* <div style={{ textAlign: "left" }}>
+                  <div style={{ textAlign: "left" }}>
                     <Card style={marginTop}>
                       <div>
                         <p
@@ -199,9 +199,9 @@ function App() {
                       </div>
                       <p>按周付费,试错成本低,只留符合模式内的学员。</p>
                     </Card>
-                  </div> */}
+                  </div>
 
-                  <div style={{ textAlign: "left" }}>
+                  {/* <div style={{ textAlign: "left" }}>
                     <Card style={marginTop}>
                       <div>
                         <p
@@ -256,7 +256,7 @@ function App() {
                         实时分享发布最新的财经新闻,不怕任何题材发酵以及当前炒作题材。
                       </p>
                     </Card>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -316,6 +316,7 @@ function App() {
         </div>
         <p>电话:+8613051202991</p>
         <p>微信:wxid_sddmipj2abdy22</p>
+        <p>微信公众号:上班族实盘</p>
       </Card>
 
       <Layout className="components-layout-demo">
