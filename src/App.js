@@ -32,8 +32,14 @@ function App() {
               text: "关于我们",
               icon: <IconMail />,
             },
+            { itemKey: "privacy", text: "隐私协议", icon: <IconApps /> },
           ]}
-          onSelect={(key) => console.log(key)}
+          onSelect={(key) => {
+            if (key.itemKey === "privacy") {
+              window.location.href =
+                "https://file.chaogudr.com/i1lk2AQGyjSsTd65T7YfYoJqYBV54OkH/userPrivacy%202.html";
+            }
+          }}
           header={{
             text: "炒股达人",
           }}
