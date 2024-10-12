@@ -153,7 +153,7 @@ function App() {
                     alignItems: "flex-start",
                   }}
                 >
-                  {/* <div style={{ textAlign: "left" }}>
+                  <div style={{ textAlign: "left" }}>
                     <Card style={marginTop}>
                       <div>
                         <p
@@ -205,9 +205,9 @@ function App() {
                       </div>
                       <p>按周付费,试错成本低,只留符合模式内的学员。</p>
                     </Card>
-                  </div> */}
+                  </div>
 
-                  <div style={{ textAlign: "left" }}>
+                  {/* <div style={{ textAlign: "left" }}>
                     <Card style={marginTop}>
                       <div>
                         <p
@@ -262,7 +262,7 @@ function App() {
                         实时分享发布最新的财经新闻,不怕任何题材发酵以及当前炒作题材。
                       </p>
                     </Card>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
