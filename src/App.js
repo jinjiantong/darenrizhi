@@ -132,7 +132,7 @@ function App() {
                     }}
                     onClick={() => {
                       window.location.href =
-                        "https://file.chaogudr.com/TLSFWF6rCLF33GjP9pY7rRKwvbV1w0a1/app-release.apk";
+                        "https://file.chaogudr.com/vlJVioIRmNvnu11JHUJNW9wRilDsneAP/app-release.apk";
                     }}
                     icon={<IconPhone />}
                   >
@@ -321,8 +321,7 @@ function App() {
           </p>
         </div>
         <p>电话:+8613051202991</p>
-        <p>微信:wxid_sddmipj2abdy22</p>
-        <p>微信交流群:wxid_sddmipj2abdy22</p>
+        <p>微信交流群:13051202991</p>
         <p>微信公众号:上班族实盘</p>
       </Card>
 
