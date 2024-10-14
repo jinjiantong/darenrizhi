@@ -322,6 +322,7 @@ function App() {
         </div>
         <p>电话:+8613051202991</p>
         <p>微信:wxid_sddmipj2abdy22</p>
+        <p>微信交流群:wxid_sddmipj2abdy22</p>
         <p>微信公众号:上班族实盘</p>
       </Card>
 
